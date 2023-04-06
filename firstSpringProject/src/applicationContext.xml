@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!-- 
+<bean class="com.scs.Student" id="stu">
+<property name="rno" value="1001"></property>
+<property name="sname" value=" xyz"></property>
+</bean> -->
+
+
+<bean class="com.scs.dao.SI" id="si">
+	<property name="p" value="505050"></property>
+	<property name="r" value="2"></property>
+	<property name="t" value="2"></property>
+
+</bean>
+
+	  <bean id="studentbean" class="concept.Student">  
+<constructor-arg value="Pawan Rawat" type="String"></constructor-arg>  
+</bean>  
+
+    </beans>
